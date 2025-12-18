@@ -83,3 +83,22 @@ console.log("De afdeling Customer Service heeft " + departments['customer-servic
 
 // Opdracht 1d:
 console.log("Sales is een uitdagende afdeling om te werken als Verkoopmannager. " + departments.sales.jobs[1].description);
+
+// Opdracht 2a
+const userInput = prompt('Over welke afdeling wil je meer informatie? Kies uit: marketing/ sales/ customer-service.');
+
+// Opdracht 2b
+if (userInput === "marketing") {
+    console.log("Je koos " + userInput + ". " + departments.marketing.description);
+}
+else if (userInput === "sales") {
+    console.log("Je koos " + userInput + ". " + departments.sales.description);
+}
+else if (userInput === "customer-service") {
+    console.log("Je koos " + userInput + ". " + departments['customer-service'].description);
+}
+
+// Opdracht 2c
+else {
+    console.error("Ongeldige keuze. Probeer het opnieuw door de pagina te verversen.");
+}
