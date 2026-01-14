@@ -111,7 +111,7 @@ switch (userInput) {
 // }
 // //
 // // Opdracht 3a
-// // const userInput = prompt("Je koos marketing. Over welke functie wil je meer weten? Voer een getal tussen 0 en 3 in.\n" +
+// // const userInput = prompt("Je koos marketing. Over welke functie wil je meer weten? Voer een getal tussen 0 en 3 in." +
 // //     "0:" + departments.marketing.jobs[0].title + " ,\n" +
 // //     "1:" + departments.marketing.jobs[1].title + " ,\n" +
 // //     "2:" + departments.marketing.jobs[2].title + " ,\n" +
